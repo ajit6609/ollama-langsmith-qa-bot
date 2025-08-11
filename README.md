@@ -27,25 +27,16 @@ Perfect for answering questions, experimenting with local LLMs, and tracking per
 ### 1️⃣ Install Dependencies
 pip install -r requirements.txt
 
-###2️⃣ Setup .env
+### 2️⃣ Setup .env
 Create a .env file in the project root:
-
-env
-Copy
-Edit
 LANGCHAIN_API_KEY=ls__your_langsmith_api_key
 LANGCHAIN_PROJECT=ollama-langsmith-bot
 
-###3️⃣ Run Ollama
+### 3️⃣ Run Ollama
 Make sure Ollama is installed and the gemma:2b model is pulled:
+ollama run gemma:2b
 
-bash
-Copy
-Edit
-ollama pull gemma:2b
-
-4️⃣ Start Streamlit App
-bash
-Copy
-Edit
+### 4️⃣ Start Streamlit App
 streamlit run app.py
+
+Created with ❤️ by Ajit
