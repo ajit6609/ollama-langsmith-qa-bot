@@ -39,4 +39,4 @@ ollama run gemma:2b
 ### 4️⃣ Start Streamlit App
 streamlit run app.py
 
-Created with ❤️ by Ajit
+# Created with ❤️ by Ajit
