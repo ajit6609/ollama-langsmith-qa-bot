@@ -37,6 +37,6 @@ Make sure Ollama is installed and the gemma:2b model is pulled:
 ollama run gemma:2b
 
 ### 4️⃣ Start Streamlit App
-streamlit run app.py
+streamlit run ollama/app.py
 
 # Created with ❤️ by Ajit
